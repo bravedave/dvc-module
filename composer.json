@@ -1,0 +1,21 @@
+{
+	"name": "bravedave/dvc-module",
+	"description": "Module Template for DVC",
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"homepage": "http://brayworth.com",
+	"type": "library",
+	"license": "MIT",
+	"authors": [{
+		"name": "Brave Dave",
+		"email": "davbray@gmail.com",
+		"homepage": "http://brayworth.com"
+	}],
+	"require": {
+		"bravedave/dvc": "dev-master"
+	},
+	"autoload": {
+		"psr-4": { "dvc\\module\\": "module/" }
+	}
+
+}
