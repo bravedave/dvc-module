@@ -12,6 +12,8 @@
 namespace dvc\module;
 
 class controller extends \Controller {
+	public $route = 'module';	// change this to the public controllers name
+
 	protected function _index() {
 		$this->render([
 			'title' => $this->title = $this->label,
