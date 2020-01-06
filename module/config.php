@@ -13,5 +13,10 @@ namespace dvc\module;
 abstract class config extends \config {
 	static $WEBNAME = 'Module Template for DVC';
 
+	static $DATE_FORMAT = 'd/m/Y';
+	static $DB_TYPE = 'sqlite';
+
+	static $TIMEZONE = 'Australia/Brisbane';
+
 }
 
